@@ -1,0 +1,41 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	padding: 20px;
+	background: linear-gradient(to right, #2c2c54, #34ace0);
+}
+.box{
+	position: fixed;
+	top: 20px;
+	left: 40%;
+}
+.button{
+	width: 55px;
+	height: 50px;
+	border-radius:55px;
+	background-color: #192a56; 
+	color: white;
+}
+.button , .display{
+	font-family: Franklin Gothic Book;
+	font-size: 30px;
+	margin: 2px;
+	border: none;
+}
+.display{
+	width: 225px;
+	border-radius: 20px;
+	padding: 8px;
+	background-color: #192a56; 
+	color: white;
+}
+.wider{
+	width: 115px;
+}
+.button:hover{
+	background-color: #48dbfb;
+	color: #353b48;
+	cursor: pointer;
+}
